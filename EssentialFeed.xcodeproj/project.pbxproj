@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		3D7D11432A7C0332006B3B01 /* EssentialFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D7D11422A7C0332006B3B01 /* EssentialFeed.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3D7D114A2A7C0348006B3B01 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D11492A7C0348006B3B01 /* FeedItem.swift */; };
+		3D7D114C2A7C039D006B3B01 /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D114B2A7C039D006B3B01 /* FeedLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3D7D113F2A7C0332006B3B01 /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D7D11422A7C0332006B3B01 /* EssentialFeed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EssentialFeed.h; sourceTree = "<group>"; };
 		3D7D11492A7C0348006B3B01 /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		3D7D114B2A7C039D006B3B01 /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 			children = (
 				3D7D11422A7C0332006B3B01 /* EssentialFeed.h */,
 				3D7D11492A7C0348006B3B01 /* FeedItem.swift */,
+				3D7D114B2A7C039D006B3B01 /* FeedLoader.swift */,
 			);
 			path = EssentialFeed;
 			sourceTree = "<group>";
@@ -133,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D7D114C2A7C039D006B3B01 /* FeedLoader.swift in Sources */,
 				3D7D114A2A7C0348006B3B01 /* FeedItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
