@@ -49,11 +49,19 @@
 		3D7D11412A7C0332006B3B01 /* EssentialFeed */ = {
 			isa = PBXGroup;
 			children = (
+				3D7D114D2A7C043B006B3B01 /* Feed Feature */,
 				3D7D11422A7C0332006B3B01 /* EssentialFeed.h */,
+			);
+			path = EssentialFeed;
+			sourceTree = "<group>";
+		};
+		3D7D114D2A7C043B006B3B01 /* Feed Feature */ = {
+			isa = PBXGroup;
+			children = (
 				3D7D11492A7C0348006B3B01 /* FeedItem.swift */,
 				3D7D114B2A7C039D006B3B01 /* FeedLoader.swift */,
 			);
-			path = EssentialFeed;
+			path = "Feed Feature";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
